@@ -1,0 +1,24 @@
+header{
+    background-color: antiquewhite;
+    padding: 50px 250px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav >ul{
+    display: flex;
+    list-style: none;
+}
+nav >ul >li{
+    margin-right: 20px;
+    font-weight: 800;
+    
+}
+nav li a{
+    color:rgb(46, 53, 51);
+}
+.nav-tittle{
+    font-size: 40px;
+}

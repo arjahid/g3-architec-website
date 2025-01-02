@@ -93,8 +93,10 @@ span{
     header{
         padding: 50px 20px;
     }
-    nav{
-        flex-direction: column;
+    nav,
+    .team-container
+    {
+        flex-direction: column-reverse;
     }
     
    
@@ -103,15 +105,22 @@ span{
     }
     .primary-button{
         font-size: 1rem;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 576px) and (max-width: 760px){
     header{
         padding: 50px;
     }
-    nav{
-        flex-direction: column;
+    nav,.team-container{
+        flex-direction: column-reverse;
     }
     
    
@@ -120,6 +129,10 @@ span{
     }
     .primary-button{
         font-size: 1rem;
+    }
+    .team-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
 }
@@ -137,6 +150,9 @@ span{
     }
     .primary-button{
         font-size: 1rem;
+    }
+    .team-img-container img{
+        width: 100%;
     }
     
 }

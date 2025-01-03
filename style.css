@@ -99,6 +99,19 @@ span {
     color: royalblue;
     font-size: 3rem;
 }
+#fact-tittle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(13, 14, 18);
+    text-align: center;
+    margin-top: 50px;
+}
+#fact-description{
+    font-size: 1.2rem;
+    color: rgb(13, 14, 18);
+    text-align: center;
+    
+}
 
 .fact-card-container {
     display: flex;
@@ -156,6 +169,12 @@ span {
     color: rgb(13, 14, 18);
     text-align: center;
     margin-top: 50px;
+}
+.section-description{
+    font-size: 1.2rem;
+    color: rgb(13, 14, 18);
+    text-align: center;
+    
 }
 
 .sponsers {
